@@ -1,0 +1,104 @@
+
+body {
+    background-image: url('images/background2.jpg');
+}
+
+h1 {
+    color: rgb(167, 205, 240);
+    margin-top: 90px;
+    font-family: Georgia, sans-serif; /* Font style */
+    font-weight: bold; /* Bold text */
+    text-align: center; /* Center align */
+    text-decoration: underline
+}
+
+
+p {
+    line-height: 1.5; /* Line spacing */
+    margin: 10px 0; /* Vertical spacing */
+    
+}
+
+b {
+    color: rgb(69, 153, 213); /* Line spacing */
+    
+}
+
+table {
+    width: 60%;
+    border-collapse: collapse;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    
+}
+th {
+    border-bottom: 1px solid rgb(230, 251, 255);
+    padding: 10px;
+    color:rgb(255, 255, 255);
+    text-align:center;
+    background-color: rgb(131, 172, 202);
+    font-family: Georgia, sans-serif; /* Font style */
+}
+
+td {
+    border-bottom: 1px solid rgb(230, 251, 255);
+    border-left: 1px solid rgb(230, 251, 255);
+    border-right: 1px solid rgb(230, 251, 255);
+    padding: 10px;
+    color:rgb(255, 255, 255);
+    text-align:center;
+    background-color: rgb(176, 211, 237);
+    font-family: Georgia, sans-serif; /* Font style */
+}
+
+table.center {
+    margin-left: auto; 
+    margin-right: auto;
+  }
+
+img {
+    display: block;
+    margin: 0 auto; /* Centers the image */
+    border: 5px solid rgb(131, 172, 202);
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+h3 {
+    font-family: Georgia, sans-serif; /* Font style */
+    font-weight: bold; /* Bold text */
+    text-align: center; /* Center align */
+    color:rgb(131, 172, 202);
+
+}
+
+button {
+    font-family: Georgia, sans-serif; /* Font style */
+    background-color: #72b9e0;
+    border: 2;
+    border-color: #72b9e0;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.outlined-text {
+    font-size: 43px;
+    text-shadow: 
+        -1px -1px 0 black,  
+        1px -1px 0 black,
+        -1px 1px 0 black,
+        1px 1px 0 black; /* Creates a black outline */
+}
+
+#rcorners3 {
+    border-radius: 25px;
+    background-position: left top;
+    background-repeat: repeat;
+    padding: 20px; 
+}
